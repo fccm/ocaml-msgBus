@@ -1,0 +1,18 @@
+description = "Message-Bus for game development"
+version = "devel"
+
+archive(byte) = "msgBus.cma"
+archive(native) = "msgBus.cmxa"
+archive(plugin,byte) = "msgBus.cma"
+archive(plugin,native) = "msgBus.cmxs"
+exists_if = "msgBus.cma"
+
+package "msgAttr" (
+  description = "Generic / polymorphic types for message attributes"
+  archive(byte) = "msgAttr.cma"
+  archive(native) = "msgAttr.cmxa"
+  archive(plugin,byte) = "msgAttr.cma"
+  archive(plugin,native) = "msgAttr.cmxs"
+  exists_if = "msgAttr.cma"
+)
+
